@@ -1,0 +1,178 @@
+/* General Styling */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: black;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.picto {
+box-shadow: 0 8px 12px rgb(0, 0, 0);
+transition: transform 0.3s ease, box-shadow 0.3s ease;
+margin: 5%;
+padding: 30%;
+border: 0;
+color: white;
+background-image: url(12na.jpeg);
+background-size: 60%;
+background-repeat: no-repeat;
+background-position: center;
+border-radius: 8%;
+height: 10px;
+max-width: 900px;
+}
+
+
+
+
+
+
+/* Header Styling */
+header {
+    background-color:rgb(70, 14, 14);
+    color: #ffffff;
+    padding: 2em 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-size: 3em;
+    margin: 0;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+header h2 {
+    font-size: 1.5em;
+    margin-top: 0.5em;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+}
+
+header p {
+    font-size: 1.1em;
+    margin-top: 0.5em;
+}
+
+/* Section Styling */
+section {
+    margin: 3em auto;
+    padding: 2em;
+    max-width: 900px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgb(0, 0, 0);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+section:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 12px 24px rgb(0, 0, 0);
+}
+
+section h3 {
+    font-size: 2em;
+    color: rgb(70, 14, 14);
+    margin-bottom: 0.5em;
+    border-bottom: 2px solid #dfe6e9;
+    padding-bottom: 0.5em;
+}
+
+section p {
+    font-size: 1.2em;
+    line-height: 1.8;
+    margin-bottom: 1.5em;
+}
+
+.job h4 {
+    font-size: 1.5em;
+    color: black;
+}
+
+.job p {
+    font-size: 1.2em;
+    color: black;
+    margin: 0.5em 0;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.job ul li {
+    font-size: 1.1em;
+    color: black;
+    padding-left: 20px;
+    position: relative;
+}
+
+.job ul li::before {
+    content: '•';
+    color: rgb(70, 14, 14);
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+}
+
+#skills ul li {
+    display: inline-block;
+    background-color: #dfe6e9;
+    color: rgb(70, 14, 14);
+    padding: 10px 15px;
+    border-radius: 30px;
+    margin: 5px;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    padding: 2em 0;
+    background-color: rgb(70, 14, 14);
+    color: white;
+    font-size: 1.2em;
+    letter-spacing: 0.5px;
+    position: relative;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    section {
+        padding: 1.5em;
+    }
+
+    header h1 {
+        font-size: 2.5em;
+    }
+
+    header h2 {
+        font-size: 1.2em;
+    }
+
+    section h3 {
+        font-size: 1.8em;
+    }
+
+    .job h4 {
+        font-size: 1.3em;
+    }
+
+    footer {
+        padding: 1.5em 0;
+    }
+}
